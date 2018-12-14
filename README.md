@@ -3,10 +3,10 @@
 > 使用BFS和DFS的迷宫演示示例
 
 # 使用框架
-electron ^3.0.7
-boostarp 4.1.3
-jquery 3.3.1
-p5.js 0.5.13
++ electron ^3.0.7
++ boostarp 4.1.3
++ jquery 3.3.1
++ p5.js 0.5.13
 
 # 主要思路
 
