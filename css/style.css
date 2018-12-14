@@ -1,0 +1,36 @@
+.btn-row {
+    margin-top: 30px;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+canvas#defaultCanvas0 {
+    position: absolute;
+    top:0;
+    left: 0;
+
+	transition: all 1.2 ease-in-out;
+}
+
+div.start-sign {
+	position: absolute;
+	z-index: 999;
+
+	transition: all 1.2 ease-in-out;
+
+}
+
+div.end-sign {
+	position: absolute;
+	z-index: 999;
+
+	transition: all 1.2 ease-in-out;
+}
+
+div.data-input {
+	margin-top: 10px;
+}
+
+h2 {
+	margin-top: 50px;
+}

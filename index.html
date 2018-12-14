@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>迷宫Solution</title>
+
+    <link href="./bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
+
+ 
+
+    <script src="./bower_components/p5.js/lib/p5.min.js"></script> 
+    <script src="./bower_components/jquery/dist/jquery.js"></script>
+    <script src="./bower_components/bootstrap/dist/js/bootstrap.js"></script>
+
+    <script src="./js/entity/model.js"></script>
+    <script src="./js/entity/structure.js"></script>
+    <script src="./js/lib/sketch.js"></script>
+    <script src="./js/lib/main.js"></script>
+
+    <script>if (window.module) module = window.module;</script>
+
+  </head>
+  <body>
+    <div class="start-sign">
+      入口
+    </div>
+    <div class="end-sign">
+      出口
+    </div>
+    <div class="row">
+      <div class="col-md-9">
+      </div>
+
+      <div class="col-md-3">
+        <div class="row">
+          <h2>迷宫DFS与BFS解决示例</h2>
+        </div>
+
+        <div class="row">
+          <div class="alert alert-success" id="info-content" role="alert">
+          </div>
+        </div>
+
+        <div class="row btn-row">
+            <button type="button" class="btn btn-success" id="init" >
+                生成迷宫
+            </button>
+
+            <div class="input-group input-group-lg data-input">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-lg">迷宫宽度数</span>
+              </div>
+              <input type="text" class="form-control" id="input-x" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
+            </div>
+
+            <div class="input-group input-group-lg data-input">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-lg">迷宫高度数</span>
+              </div>
+              <input type="text" class="form-control" id="input-y" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
+            </div>
+        </div>
+
+        <div class="row btn-row">
+            <button type="button" class="btn btn-success" id="width" disabled="disabled">
+                广度优先
+            </button>
+        </div>
+
+        <div class="row btn-row">
+            <button type="button" class="btn btn-success" id="deep" disabled="disabled">
+                深度优先
+            </button>
+        </div>
+
+        <div class="row btn-row">
+            <button type="button" class="btn btn-success" id="reload" >
+                重置
+            </button>
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>
