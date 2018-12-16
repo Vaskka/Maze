@@ -4,7 +4,7 @@
 
 # 使用框架
 + electron ^3.0.7
-+ boostarp 4.1.3
++ bootstrap 4.1.3
 + jquery 3.3.1
 + p5.js 0.5.13
 
